@@ -48,6 +48,7 @@ function Mapa() {
     const [position, setPosition] = useState([]);
     const [users, setUsers] = useState([]);
 
+
   useEffect(() => {
     // Initialize the UI.
     
@@ -127,6 +128,8 @@ function Mapa() {
   </Marker>
 ))}
     </MapContainer>
+
+
   );
 }
 
